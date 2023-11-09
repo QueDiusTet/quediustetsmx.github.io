@@ -1,0 +1,25 @@
+
+
+h1
+{
+     color:rgb(55, 226, 169);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 32px;
+} 
+
+p
+{
+     color:rgb(0, 0, 0);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+}
+
+h3
+{
+     color: blueviolet;
+}
+
+h4
+{
+     color: gold;
+}
