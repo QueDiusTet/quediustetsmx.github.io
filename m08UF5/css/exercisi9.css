@@ -1,7 +1,6 @@
-table, td
+table, td, th
 {
     border-width: 2px;
     border-style: solid;
     border-collapse: collapse;
 }
-
