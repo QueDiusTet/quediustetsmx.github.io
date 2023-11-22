@@ -1,0 +1,36 @@
+table, td, th
+{
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.roc
+{
+    color:red;
+}
+
+
+.assignatures
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+}
+
+.bardaji
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    background-color: bisque;
+}
+
+.duran
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    background-color: bisque;
+}
