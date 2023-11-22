@@ -1,10 +1,32 @@
-table, td, th
+table
+{
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th
+{
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+td
+
 {
     border-width: 2px;
     border-style: solid;
     border-collapse: collapse;
 }
 
+img
+{
+    height: 50px;
+    width: 70px;
+}
 .roc
 {
     color:red;
@@ -32,5 +54,22 @@ table, td, th
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aquamarine;
-    background-color: bisque;
+}
+
+.gomez
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+}
+
+.montesinos
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+}
+
+.campaña
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
 }
