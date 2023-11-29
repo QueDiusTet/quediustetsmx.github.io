@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulari</title>
+</head>
+<body>
+<form action="/php/form.php">
+    <fieldset>
+        <legend> Información Básica </legend> 
+            <label>Nombre</label> <br>
+            <input type="text" value="Nom i Cognoms" name="nombre"> <br>
+
+            <label>Altura en centimetros</label> <br>
+            <input type="number" value="" name="altura"><br>
+
+            <label>Email</label> <br>
+            <input type="text" value="tuemail@dominio.con" name="email"> <br>
+
+            <label>Fecha Nacimiento</label> <br>
+            <input type="date" value="" name="fecha"> <br>
+    </fieldset> <br>
+
+    <fieldset name="nacionalidad">
+        <legend>Nacionalidad</legend>
+        <input type="radio" name="nacionalidad">
+        <label>Española</label>
+        <input type="radio" name="nacionalidad">
+        <label>Comunitario(UE)</label>
+        <input type="radio" name="nacionalidad">
+        <label>No comunitario</label>
+     </fieldset>
+
+
+
+</form>
+</body>
+</html>
