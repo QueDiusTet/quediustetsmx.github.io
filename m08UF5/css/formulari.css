@@ -1,0 +1,67 @@
+form {
+    padding: 10px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: azure;
+}
+
+fieldset
+{
+    margin: auto;    
+    padding: 15px;
+    width: 620px;
+}
+ 
+#groc
+{
+    background-color: rgb(235, 227, 124);
+}
+
+#botons
+{
+    font-weight: bolder;
+    color: #000000;
+    height: auto;
+    width: 80px;
+}
+#blau
+{
+    background-color: rgb(160, 212, 255);
+}
+
+
+#verd
+{
+    background-color: chartreuse;
+}
+
+
+#taronja
+{
+    background-color: coral;
+}
+
+#lila
+{
+    background-color: blueviolet;
+}
+
+legend
+{
+    font-size: larger;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+input
+{
+    color:rgb(208, 162, 214);
+    font-weight: lighter;
+}

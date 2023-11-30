@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulari.css">
     <title>formulari</title>
 </head>
 <body>
+    <h1>CURRÍCULUM</h1>
 <form action="/php/form.php">
-    <fieldset>
+    <fieldset id="groc">
         <legend> Información Básica </legend> 
             <label>Nombre</label> <br>
             <input type="text" value="Nom i Cognoms" name="nombre"> <br>
 
             <label>Altura en centimetros</label> <br>
-            <input type="number" value="" name="altura"><br>
+            <input type="number" value="170" name="altura" min="0" max="300"><br>
 
             <label>Email</label> <br>
             <input type="text" value="tuemail@dominio.con" name="email"> <br>
@@ -23,7 +25,7 @@
             <input type="date" value="" name="fecha"> <br>
     </fieldset> <br>
 
-    <fieldset name="nacionalidad">
+    <fieldset id="blau" name="nacionalidad">
         <legend>Nacionalidad</legend>
         <input type="radio" name="nacionalidad">
         <label>Española</label>
@@ -31,9 +33,35 @@
         <label>Comunitario(UE)</label>
         <input type="radio" name="nacionalidad">
         <label>No comunitario</label>
-        
+     </fieldset> <br>
+
+     <fieldset id="verd" name="estudios">
+        <legend>Estudios</legend>
+        <select name="estudios" id="">
+        <option value="ESO">ESO</option>
+        <option value="GM">GM</option>
+        <option value="GS">GS</option>
+        <option value="Universidad">Universidad</option>
+        </select>
      </fieldset>
 
+     <fieldset id="taronja">
+        <legend>Idiomas</legend>
+        <input type="checkbox" name="idiomas">
+        <label for="idiomas">Catalán</label>
+        <input type="checkbox" name="idiomas">
+        <label for="idiomas">Castellano</label>
+        <input type="checkbox" name="idiomas">
+        <label for="Ingles">Inglés</label>
+        <input type="checkbox" name="idiomas">
+        <label for="idiomas">Chino</label>
+    </fieldset>
+    <br>
+    <fieldset id="lila">
+        <input id="botons" type="submit" value="Enviar">
+        <input id="botons" type="button" name="Cancelar" value="Cancelar">
+    </fieldset>
+</form>
 
 
 </form>
