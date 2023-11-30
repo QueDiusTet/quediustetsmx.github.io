@@ -11,22 +11,22 @@
     <h1>CURRÍCULUM</h1>
 <form action="/php/form.php">
     <fieldset id="groc">
-        <legend> Información Básica </legend> 
+        <legend id="informacion"> Información Básica </legend> 
             <label>Nombre</label> <br>
-            <input type="text" value="Nom i Cognoms" name="nombre"> <br>
+            <input type="text" placeholder="Nom i Cognoms" name="nombre"> <br>
 
             <label>Altura en centimetros</label> <br>
             <input type="number" value="170" name="altura" min="0" max="300"><br>
 
             <label>Email</label> <br>
-            <input type="text" value="tuemail@dominio.con" name="email"> <br>
+            <input type="text" placeholder="tuemail@dominio.con" name="email"> <br>
 
             <label>Fecha Nacimiento</label> <br>
             <input type="date" value="" name="fecha"> <br>
     </fieldset> <br>
 
     <fieldset id="blau" name="nacionalidad">
-        <legend>Nacionalidad</legend>
+        <legend id="nacionalidad">Nacionalidad</legend>
         <input type="radio" name="nacionalidad">
         <label>Española</label>
         <input type="radio" name="nacionalidad">
@@ -37,33 +37,32 @@
 
      <fieldset id="verd" name="estudios">
         <legend>Estudios</legend>
-        <select name="estudios" id="">
+        <select name="estudios" >
         <option value="ESO">ESO</option>
         <option value="GM">GM</option>
-        <option value="GS">GS</option>
+        <option value="GS">GS</option> 
         <option value="Universidad">Universidad</option>
         </select>
-     </fieldset>
+     </fieldset> <br>
 
      <fieldset id="taronja">
-        <legend>Idiomas</legend>
-        <input type="checkbox" name="idiomas">
-        <label for="idiomas">Catalán</label>
-        <input type="checkbox" name="idiomas">
-        <label for="idiomas">Castellano</label>
-        <input type="checkbox" name="idiomas">
-        <label for="Ingles">Inglés</label>
-        <input type="checkbox" name="idiomas">
-        <label for="idiomas">Chino</label>
-    </fieldset>
-    <br>
+        <legend id="idiomas">Idiomas</legend>
+        <input type="checkbox" name="idiomas[]">
+        <label>Catalán</label>
+        <input type="checkbox" name="idiomas[]">
+        <label>Castellano</label>
+        <input type="checkbox" name="idiomas[]">
+        <label>Inglés</label>
+        <input type="checkbox" name="idiomas[]">
+        <label>Chino</label>
+    </fieldset> <br>
     <fieldset id="lila">
-        <input id="botons" type="submit" value="Enviar">
-        <input id="botons" type="button" name="Cancelar" value="Cancelar">
+        <input class="botons" type="submit" value="Enviar">
+        <input class="botons" type="button" name="Cancelar" value="Cancelar">
     </fieldset>
 </form>
-
-
-</form>
+<p><a href="ex4index.html">Tornar pàgina principal</a></p>
+<img src="../imatges/formulari.PNG" alt="">
+<img src="../imatges/ok.PNG" alt="">
 </body>
 </html>

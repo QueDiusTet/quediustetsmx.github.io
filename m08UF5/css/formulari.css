@@ -24,7 +24,7 @@ fieldset
     background-color: rgb(235, 227, 124);
 }
 
-#botons
+.botons
 {
     font-weight: bolder;
     color: #000000;
@@ -64,4 +64,22 @@ input
 {
     color:rgb(208, 162, 214);
     font-weight: lighter;
+}
+
+#informacion
+{
+    color: blue;
+    font-style: italic;
+}
+
+#nacionalidad
+{
+    color: rgb(255, 123, 0);
+    font-style: italic;
+}
+
+#idiomas
+{
+    color: rgb(255, 0, 0);
+    font-style: italic;
 }
